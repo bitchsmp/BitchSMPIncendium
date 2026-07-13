@@ -18,7 +18,7 @@
                 },
                 "",
                 {
-                  "text":"Bitch SMP Incendium",
+                  "translate":"incendium","fallback":"Incendium",
                   "color": "#FF8000",
                   "italic": true
                 }
