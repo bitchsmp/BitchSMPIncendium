@@ -8,9 +8,9 @@ data modify entity @s[scores={in.timer=2..3}] NoGravity set value 0b
 scoreboard players operation $random in.dummy = @s in.trailblazer
 
 # fire trail
-execute if entity @s[scores={in.timer=2..60},predicate=incendium:random/other/x] run summon small_fireball ~ ~ ~ {Tags:["in.checked"],Motion:[0.0d,-0.1d,0.0d]}
+execute if entity @s[scores={in.timer=2..60},predicate=incendium:random/other/x] run summon arrow ~ ~ ~ {Tags:["in.checked"],Motion:[0.0d,-0.1d,0.0d],Fire:32767,life:1000}
 
-execute if entity @s[scores={in.timer=2..60,in.trailblazer=75..},predicate=incendium:random/other/x] run summon small_fireball ~ ~ ~ {Tags:["in.checked"],Motion:[0.0d,1.0d,0.0d]}
+execute if entity @s[scores={in.timer=2..60,in.trailblazer=75..},predicate=incendium:random/other/x] run summon arrow ~ ~ ~ {Tags:["in.checked"],Motion:[0.0d,1.0d,0.0d],Fire:32767,life:1000}
 
 execute if entity @s[nbt={inGround:1b}] run function incendium:item/trailblazer/arrow/explode
 execute if block ~ ~ ~ water run function incendium:item/trailblazer/arrow/water

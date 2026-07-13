@@ -7,5 +7,4 @@ execute anchored eyes run summon firework_rocket ~ ~0.25 ~ {LifeTime:1,Fireworks
 particle flame ~ ~ ~ .25 1.25 .25 .1 50 force
 particle small_flame ~ ~ ~ .25 1.25 .25 .6 50 force
 
-summon small_fireball ~ ~0.5 ~ {Motion:[0.0d,-0.9d,0.0d]}
 kill @s
