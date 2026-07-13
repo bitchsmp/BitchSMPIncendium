@@ -2,7 +2,7 @@
 # @s: newly spawned arrow for shotgun
 
 data modify entity @s {} merge from storage incendium:temp arrow
-data merge entity @s {pickup:0b,PierceLevel:4b,damage:8.5d,crit:0b,NoGravity:1b}
+data merge entity @s {pickup:0b,PierceLevel:4b,damage:13d,crit:0b,NoGravity:1b}
 tp @s ~ ~ ~ ~ ~
 
 execute as @e[type=marker,tag=in.helper_entity,limit=1] in minecraft:overworld run function incendium:item/multiplex_crossbow/arrow/helper
