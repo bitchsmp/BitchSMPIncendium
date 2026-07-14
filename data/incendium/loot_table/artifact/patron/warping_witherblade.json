@@ -30,7 +30,7 @@
                 {
                   "attribute": "minecraft:attack_damage",
                   "id": "d",
-                  "amount": 13,
+                  "amount": 9,
                   "operation": "add_value",
                   "slot": "mainhand"
                 }
